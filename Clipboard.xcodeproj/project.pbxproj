@@ -87,8 +87,7 @@
 				AEFA81401573939300EB79CD /* HelloWorldViewController.m */,
 				AEFA81311573939300EB79CD /* Supporting Files */,
 			);
-			name = Clipboard;
-			path = HelloWorld;
+			path = Clipboard;
 			sourceTree = "<group>";
 		};
 		AEFA81311573939300EB79CD /* Supporting Files */ = {
