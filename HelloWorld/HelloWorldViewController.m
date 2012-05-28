@@ -36,27 +36,15 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-- (IBAction)changeGreeting:(id)sender {
-    self.userName = self.textField.text;
-    NSString *nameString = self.userName;
-    if ([nameString length] == 0) {
-        nameString = @"World";
-    }
-    NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@!", nameString];
-    self.label.text = greeting;
-    
-    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
 
-    
-    greeting = pasteboard.string;
-    self.label.text = greeting;
-    
-    // UIImage *image = pasteboard.image;
-    // NSURL *url = pasteboard.URL;
-    // UIColor *color = pasteboard.color;
-    
-    // pasteboard.string = @"paste me somewhere";
+
+- (IBAction)changeGreeting:(id)sender {    
+    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+    self.label.text = pasteboard.string;
 }
+
+
+
 - (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
     if (theTextField == self.textField) {
         [theTextField resignFirstResponder];
