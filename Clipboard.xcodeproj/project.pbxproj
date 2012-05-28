@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0C9FD01573C982005A3BEB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0C9FCF1573C982005A3BEB /* Default@2x.png */; };
+		AEFA812B1573939300EB79CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFA812A1573939300EB79CD /* UIKit.framework */; };
+		AEFA812D1573939300EB79CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFA812C1573939300EB79CD /* Foundation.framework */; };
+		AEFA812F1573939300EB79CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFA812E1573939300EB79CD /* CoreGraphics.framework */; };
+		AEFA81351573939300EB79CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEFA81331573939300EB79CD /* InfoPlist.strings */; };
+		AEFA81371573939300EB79CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFA81361573939300EB79CD /* main.m */; };
+		AEFA813B1573939300EB79CD /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFA813A1573939300EB79CD /* HelloWorldAppDelegate.m */; };
+		AEFA813E1573939300EB79CD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFA813C1573939300EB79CD /* MainStoryboard.storyboard */; };
+		AEFA81411573939300EB79CD /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFA81401573939300EB79CD /* HelloWorldViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE0C9FCF1573C982005A3BEB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AEFA81261573939300EB79CD /* Clipboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFA812A1573939300EB79CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AEFA812C1573939300EB79CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEFA812E1573939300EB79CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AEFA81321573939300EB79CD /* Clipboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clipboard-Info.plist"; sourceTree = "<group>"; };
+		AEFA81341573939300EB79CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEFA81361573939300EB79CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEFA81381573939300EB79CD /* Clipboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clipboard-Prefix.pch"; sourceTree = "<group>"; };
+		AEFA81391573939300EB79CD /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
+		AEFA813A1573939300EB79CD /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
+		AEFA813D1573939300EB79CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AEFA813F1573939300EB79CD /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		AEFA81401573939300EB79CD /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEFA81231573939300EB79CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFA812B1573939300EB79CD /* UIKit.framework in Frameworks */,
+				AEFA812D1573939300EB79CD /* Foundation.framework in Frameworks */,
+				AEFA812F1573939300EB79CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEFA811B1573939300EB79CD = {
+			isa = PBXGroup;
+			children = (
+				AE0C9FCF1573C982005A3BEB /* Default@2x.png */,
+				AEFA81301573939300EB79CD /* Clipboard */,
+				AEFA81291573939300EB79CD /* Frameworks */,
+				AEFA81271573939300EB79CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEFA81271573939300EB79CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA81261573939300EB79CD /* Clipboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEFA81291573939300EB79CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA812A1573939300EB79CD /* UIKit.framework */,
+				AEFA812C1573939300EB79CD /* Foundation.framework */,
+				AEFA812E1573939300EB79CD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEFA81301573939300EB79CD /* Clipboard */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA81391573939300EB79CD /* HelloWorldAppDelegate.h */,
+				AEFA813A1573939300EB79CD /* HelloWorldAppDelegate.m */,
+				AEFA813C1573939300EB79CD /* MainStoryboard.storyboard */,
+				AEFA813F1573939300EB79CD /* HelloWorldViewController.h */,
+				AEFA81401573939300EB79CD /* HelloWorldViewController.m */,
+				AEFA81311573939300EB79CD /* Supporting Files */,
+			);
+			name = Clipboard;
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		AEFA81311573939300EB79CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA81321573939300EB79CD /* Clipboard-Info.plist */,
+				AEFA81331573939300EB79CD /* InfoPlist.strings */,
+				AEFA81361573939300EB79CD /* main.m */,
+				AEFA81381573939300EB79CD /* Clipboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEFA81251573939300EB79CD /* Clipboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFA81441573939300EB79CD /* Build configuration list for PBXNativeTarget "Clipboard" */;
+			buildPhases = (
+				AEFA81221573939300EB79CD /* Sources */,
+				AEFA81231573939300EB79CD /* Frameworks */,
+				AEFA81241573939300EB79CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clipboard;
+			productName = HelloWorld;
+			productReference = AEFA81261573939300EB79CD /* Clipboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEFA811D1573939300EB79CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Clipboard;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Simon Brüchner Webdesign";
+			};
+			buildConfigurationList = AEFA81201573939300EB79CD /* Build configuration list for PBXProject "Clipboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AEFA811B1573939300EB79CD;
+			productRefGroup = AEFA81271573939300EB79CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEFA81251573939300EB79CD /* Clipboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEFA81241573939300EB79CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFA81351573939300EB79CD /* InfoPlist.strings in Resources */,
+				AEFA813E1573939300EB79CD /* MainStoryboard.storyboard in Resources */,
+				AE0C9FD01573C982005A3BEB /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEFA81221573939300EB79CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFA81371573939300EB79CD /* main.m in Sources */,
+				AEFA813B1573939300EB79CD /* HelloWorldAppDelegate.m in Sources */,
+				AEFA81411573939300EB79CD /* HelloWorldViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEFA81331573939300EB79CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFA81341573939300EB79CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AEFA813C1573939300EB79CD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFA813D1573939300EB79CD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEFA81421573939300EB79CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEFA81431573939300EB79CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEFA81451573939300EB79CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld/Clipboard-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld/Clipboard-Info.plist";
+				PRODUCT_NAME = Clipboard;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AEFA81461573939300EB79CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld/Clipboard-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld/Clipboard-Info.plist";
+				PRODUCT_NAME = Clipboard;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEFA81201573939300EB79CD /* Build configuration list for PBXProject "Clipboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFA81421573939300EB79CD /* Debug */,
+				AEFA81431573939300EB79CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFA81441573939300EB79CD /* Build configuration list for PBXNativeTarget "Clipboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFA81451573939300EB79CD /* Debug */,
+				AEFA81461573939300EB79CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEFA811D1573939300EB79CD /* Project object */;
+}
