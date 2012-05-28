@@ -17,8 +17,6 @@
 @synthesize label;
 @synthesize textField;
 
-// Added other comment by Xcode
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
