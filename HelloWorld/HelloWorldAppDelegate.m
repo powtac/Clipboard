@@ -6,8 +6,6 @@
 //  Copyright (c) 2012 Simon Brüchner Webdesign. All rights reserved.
 //
 
-// Test comment
-
 #import "HelloWorldAppDelegate.h"
 
 @implementation HelloWorldAppDelegate
