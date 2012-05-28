@@ -13,7 +13,6 @@
 @end
 
 @implementation HelloWorldViewController
-@synthesize userName = _userName;
 @synthesize label;
 @synthesize textField;
 
